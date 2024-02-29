@@ -34,7 +34,6 @@ func (e *OrderPickup) Accept(visitor DeliveryVisitor) {
 	visitor.VisitPickup(e)
 }
 
-// ObjectStructure - структура объектов
 type ObjectStructure struct {
 	elements []Element
 }
